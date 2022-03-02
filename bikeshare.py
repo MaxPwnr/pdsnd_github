@@ -33,7 +33,7 @@ def get_filters():
             break
                      
                   
-    # TO DO: get user input for month (all, january, february, ... , june)     
+    # TO DO: get user input for month (all, january .. june)     
     while True:
         try:
             month = str(input('Please choose a month between January and June or all to analyze: ')).lower()
@@ -49,7 +49,7 @@ def get_filters():
             print('\nInput terminated by user')
             break   
 
-    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)                   
+    # TO DO: get user input for day of week (all, monday .. sunday)                   
     while True:
         try:
             day = str(input('Please choose a day of the week or all to analyze: ')).lower()
