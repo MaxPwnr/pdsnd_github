@@ -7,7 +7,7 @@
 Bikeshare.py
 
 ### Description
-Sort bike pooling data according to user input
+Sort bike rental data according to user input
 
 ### Files used
 chicago.csv
